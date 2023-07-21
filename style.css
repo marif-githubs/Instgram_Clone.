@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.nav{
+    z-index: 100;
+    position: fixed;
+    top: 0px;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+    border: 1px solid rgb(181, 181, 179);
+}
+.i-nav{
+    margin:auto;
+    
+}
+input{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid rgb(181, 181, 179);
+}
+.logoo{
+    width: 130px;
+    height: auto;
+}
+.icons{
+    width: 25px;
+    margin:15px ;
+    padding: auto;
+}
+.home{
+    position: relative;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+}
+.stories{
+    position: absolute;
+    height: 120px;
+    width: 500px;
+    background-color:white;
+    border: 1px solid rgb(181, 181, 179);
+    display: flex;
+    border-radius: 15px;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+
+}
+.suggestions{
+    right: 0px;
+    width: 350px;
+    height: 400px;
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 120px;
+    border: 1px solid #f8f8f8;
+    background-color:#f8f8f8;
+   
+}
+.posts{
+    position: absolute;
+    left: 0px;
+    top:125px ;
+    height: min-500px;
+    border-radius: 15px;
+    width: 500px;
+    
+}
+.porfile-box{
+    margin-left: 15px;
+}
+.profile img{
+    width: 60px;
+    height: 60px;
+    border: 2px red solid;
+    border-radius: 50%;
+    margin: auto;
+    
+}
+
+.profile-name{
+    text-align: center;
+    margin: auto;
+
+}
+.sug-box1{
+    display: flex;
+    flex-direction: row;
+
+    height: 100px;
+}
+
+.sug-profile{
+    top: 13px;
+    left: 13px;
+    width: 70px;
+    height: 70px;
+    margin:10px;
+}
+.sug-name{
+    width: 150px;
+    padding:15px;
+}
+.sug-profile img{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+.sug{
+    position: relative;
+    left: 5px;
+    bottom: 15px;
+}
+.sug1-profile img{
+    top: 13px;
+    left: 13px;
+    width: 50px;
+    height: 50px;
+    margin:10px;
+    border-radius: 50%;
+}
+.sug-dis{
+    font-size:13px ;
+}
+.sug-box{
+    display: flex;
+    flex-direction: row;
+    height: 95px;
+    position: relative;
+    bottom: 15px;
+}
+.post-box{
+    height: 580px;
+    border: 1px solid rgb(181, 181, 179);
+    border-radius: 15px;
+    margin-top: 15px;
+
+
+}
+.post-pro{
+    height: 40px;
+    padding: 5px;
+    position: relative;
+}
+.post-pro img{
+    height: 30px;
+    width: 30px ;
+    border-radius: 50%;
+}
+.sp{
+    margin: auto;
+
+}
+
+.postp{
+    height: 400px;
+}
+.post-icons{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.post-de{
+    height:80px;
+    padding: 10px;
+    
+}
+.post-comment{
+    bottom: 0px;
+    height: 40px;
+    position: absolute;
+    width:500px;
+}
+.postp img{
+    height: 400px;
+    width: 500px;
+}
+.sp{
+    position: relative;
+    left: 15px;
+    bottom: 10px;
+}
+.post-icons img{
+    height: 20px;
+    width: 20px;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.bm{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+}
+.post-comment input{
+    width: 500px;
+    position: relative;
+    top: 10px;
+    padding: 10px;
+}
+.follow{
+    margin: auto;
+}
+/*
+.logo{
+    height: 50px;
+    width: 120px;
+    padding: 0px;
+    margin-left: 270px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+input{
+    margin-left: 0px ;
+    margin-right: 90px;    
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    box-decoration-break: slice;
+    border: none;
+}
+.icons{
+    height: 50px;
+    margin: 10px 20px;
+}
+*/
